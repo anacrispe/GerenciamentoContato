@@ -46,6 +46,8 @@ public class ContatoController implements Initializable{
 
 	private void preencherLista(){
 
+		//lst
+
 		lstContatos.getItems().clear();
 
 		Connection con = MySqlConnect.ConectarDb();
